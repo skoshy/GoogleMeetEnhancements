@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Meet Enhancements
 // @namespace    https://skoshy.com
-// @version      0.1.0
+// @version      0.1.1
 // @description  Makes self view larger on Google Meet
 // @author       Stefan K.
 // @match        https://meet.google.com/*
@@ -49,6 +49,7 @@
       // this is a new element
 
       node.style.zoom = 2.5;
+      node.style.fontSize = '8px';
     }
   }
 
